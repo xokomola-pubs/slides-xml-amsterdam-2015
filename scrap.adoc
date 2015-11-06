@@ -1,0 +1,108 @@
+= Origami Templating Library
+:source-highlighter: pygments
+:pygments-css: style
+:pygments-style: github
+:backend: deckjs
+:deckjs_theme: swiss
+:deckjs_transition: horizontal-slide
+:goto:
+:menu:
+:status:
+:toc:
+:split:
+
+[canvas-image=images/origami_cat_instructions.jpg]
+== Screenscraper
+
+[.canvas-caption, position=center] 
+This text is displayed on top of the example.jpg image.
+
+== Slide 2
+
+Foobar
+
+<<<
+
+[source,xml]
+----
+<foo bar="baz"/>
+----
+
+<<<
+
+Another 
+
+== Table
+
+[cols="3*"] 
+|===
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+|Cell in column 3, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|Cell in column 3, row 2
+|===
+
+== Abstraction
+
+[, Alan Perlis]
+""
+It is better to have 100 functions operate on one data structure than 10 functions on 10 data structures.
+"" 
+
+== Lists
+
+* item 1
+* item 2
+* item 3
+
+Hello
+
+. item 1
+. item 2
+. item 3
+
+Bla
+
+CPU:: The brain of the computer.
+RAM:: Temporary storage
+
+=== Hello sublevel
+
+This is another
+
+== Images
+
+image::images/origami_cat_instructions.jpg[Tiger,200,200,float="right",align="center"]
+
+* item 1
+* item 2
+* item 3
+
+== Slide 3
+
+.AsciiDoc history 
+**** 
+AsciiDoc was first released in Nov 2002 by Stuart Rackham.
+It was designed from the start to be a shorthand syntax
+for producing professional documents like DocBook and LaTeX.
+****
+
+[%step]
+* Compose
+* Simple
+* Functional
+
+== Slide 4
+
+[%step]
+--
+Block one
+--
+
+[%step]
+--
+Block two
+
